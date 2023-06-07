@@ -1,0 +1,56 @@
+{% extends 'core/base.html' %}
+
+{% block titile %}Acerca de{% endblock %}
+
+{% block background %}{% load static %}{% static 'core/img/about-bg.jpg' %}{% endblock %}
+
+{% block headers %}
+<h1>Acerca de</h1>
+<span class="subheading">Biografía</span>
+{% endblock %}
+
+{% block content %}
+<div class="row">
+    <div class="col-lg-3 col-md-4 offset-lg-1">
+        <img class="img-fluid avatar" src="{% static 'core/img/avatar.jpg' %}" alt="">
+    </div>
+    <div class="col-lg-7 col-md-8">
+        <h2 class="section-heading">Juan Monsalve</h2>
+        <p>¡Hola! Mi nombre es Juan José Monsalve Marín y nací en la hermosa ciudad de
+            Medellín, Antioquia, Colombia. Actualmente, me encuentro en los últimos semestres
+            de mi carrera de Ingeniería de Sistemas e Informática en la
+            Universidad Nacional de Colombia.</p>
+        <p>Soy una persona amable, enfocada y apasionada por la tecnología.
+            Mi personalidad organizada y centrada me ayuda a abordar los desafíos
+            de manera eficiente, mientras que mi atención hacia los demás me
+            permite colaborar de manera efectiva en equipos de trabajo.</p>
+        <p>En cuanto a mi experiencia, he trabajado como desarrollador web Python
+            (Django) durante 6 meses, lo que me ha permitido adquirir sólidos
+            conocimientos en el desarrollo de aplicaciones web. Además, tuve
+            la oportunidad de ejercer como docente escolar de media técnica en
+            el área de tecnología durante 3 meses, donde pude compartir mis
+            conocimientos y fomentar el interés de los estudiantes por la
+            tecnología. También desempeñé el rol de monitor de fundamentos
+            de programación en la Universidad Nacional de Colombia durante
+            un año, lo cual me permitió profundizar en mi entendimiento de
+            los conceptos clave y apoyar a mis compañeros en su aprendizaje.
+            Además, trabajé como auxiliar operativo en una compañía de seguros
+            durante 6 meses, lo que me brindó una visión amplia del mundo
+            empresarial y me permitió desarrollar habilidades de gestión.</p>
+        <p>Mi objetivo profesional es convertirme en un gerente de proyectos
+            de software, liderando el área de desarrollo. Deseo aplicar mis
+            habilidades técnicas y mi capacidad para coordinar equipos en la
+            creación de soluciones innovadoras y exitosas. Asimismo, aspiro a
+            obtener conocimientos sólidos en el campo de la inteligencia
+            artificial y el análisis de datos, ya que considero que son áreas
+            fundamentales en el futuro de la tecnología.</p>
+        <p>Recientemente, he concluido con éxito el programa de Misión TIC
+            como Desarrollo de Aplicaciones Web. Este programa me brindó una
+            formación integral y me permitió desarrollar habilidades en el
+            diseño y construcción de aplicaciones web modernas y escalables.</p>
+        <p>Estoy emocionado por seguir aprendiendo y creciendo en el campo
+            de la tecnología, y espero poder contribuir de manera significativa
+            en futuros proyectos y desafíos.</p>
+    </div>
+</div>
+{% endblock content %}
